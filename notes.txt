@@ -1,0 +1,5 @@
+minimum iteration count of do while loop is 1
+
+functions:
+function is the building block of javascript
+functions are block of code used to execute specific task
