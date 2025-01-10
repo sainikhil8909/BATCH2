@@ -1,34 +1,34 @@
-//! without parameters
+// //! without parameters
 
-function demo(){
-    console.log("function is executing.....");
+// function demo(){
+//     console.log("function is executing.....");
 
-}
-demo(4,5,6);
+// }
+// demo(4,5,6);
 
-//! function with parameters and arguments
-//! let a = 10; // a=parameter, 10=arguments
-5,6
-8,9
-3,4
-function add(a,b){
-    console.log(a+b);
-}
-add(5,6);
-add(8,9);
-add(3,4);
-// named function
-function test(){
-    console.log("named function is executing");
-}
-test();
+// //! function with parameters and arguments
+// //! let a = 10; // a=parameter, 10=arguments
+// 5,6
+// 8,9
+// 3,4
+// function add(a,b){
+//     console.log(a+b);
+// }
+// add(5,6);
+// add(8,9);
+// add(3,4);
+// // named function
+// function test(){
+//     console.log("named function is executing");
+// }
+// test();
 
-//function expression
-let x = function(){
-    console.log("ananymous is not executing");
-}
-//console.log(x);
-x();
+// //function expression
+// let x = function(){
+//     console.log("ananymous is not executing");
+// }
+// //console.log(x);
+// x();
 
 // IFE
 // {
@@ -42,12 +42,32 @@ x();
 // x();
 
 //implicit and explicit return
-function test1(a,b){
-    return a+b;
-}
-console.log(test1(5,5));
-let x = (a,b) => {return a*b};
-console.log(x(5,5));
+// function test1(a,b){
+//     return a+b;
+// }
+// console.log(test1(5,5));
+// let x = (a,b) => {return a*b};
+// console.log(x(5,5));
 
-let y = (a,b) => a +b;
-console.log(y(100,200));
+// let y = (a,b) => a +b;
+
+// console.log(y(100,200));
+
+// higher order function and callback function
+// function hof(a){
+//     return a;
+
+// }
+// let x = hof([1,2,3,4,5]);
+// console.log(x);
+
+// let users = ["Manoj", "suresh", "Ramesh"];
+// console.log(users);
+// users.map(function(user){console.log(user)});
+
+for (let i = 1; i<= 4; i++){
+    for (let j =1; j <= 4; j++) {
+        document.writeln("*")
+    }
+    document.writeln("<br>")
+}

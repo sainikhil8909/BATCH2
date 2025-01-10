@@ -6,3 +6,20 @@ functions are block of code used to execute specific task
 SYNTAX function function_name(optional parameters){ //function 
 
 }
+
+types of functions
+1.named function -- function is having a name and invoked(calling) with
+2.ananymous function -- A function which does not have a 
+3.function expression
+4.IIFE(immediate invoke function expression)
+5.arrow function -- it is introduced in es6 feature
+6.higher order function 
+7.callback function
+current version of javascript is es14
+es stands for ecma scrpt
+ECMA stands for european company manufacturing association 
+ES6 feature is stable
+
+closure:- closure is a memory created when functions are bundled together 
+or nested each other by giving accessibility to the inner most function to
+access the variables of outer most function
