@@ -22,4 +22,8 @@ ES6 feature is stable
 
 closure:- closure is a memory created when functions are bundled together 
 or nested each other by giving accessibility to the inner most function to
-access the variables of outer most function
+access the variables ovef outer most function
+objects : object is an entity is used to store the values in the form of
+ key and value pairs. object have states and behaviour
+
+map : 

@@ -65,9 +65,34 @@
 // console.log(users);
 // users.map(function(user){console.log(user)});
 
-for (let i = 1; i<= 4; i++){
-    for (let j =1; j <= 4; j++) {
-        document.writeln("*")
-    }
-    document.writeln("<br>")
-}
+// for (let i = 1; i<= 4; i++){
+//     for (let j =1; j <= 4; j++) {
+//         document.writeln("*")
+//     }
+//     document.writeln("<br>")
+// }
+
+// function x() {
+//     let a = 10;
+//     const b = 20;
+//     console.log(a ,b);
+//     function y() {
+//         let p="Js";
+//         var q = "ReactJs"
+//         console.log(p , q);
+//         function z(){
+//             const username = "Harish";
+//             console.log(username);
+//             console.log(a);
+//             console.log(q);
+//         }
+//         z();
+//     }
+//     y();
+
+// }
+// x();
+
+const users = ["Sasank" , "Ganesh", "pavan"]
+let x = users.join((""));
+console.log(x , typeof(x));
