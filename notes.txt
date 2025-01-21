@@ -26,4 +26,13 @@ access the variables ovef outer most function
 objects : object is an entity is used to store the values in the form of
  key and value pairs. object have states and behaviour
 
-map : 
+map() :
+forEach():
+
+object: it is an entity which contain states(properties) and behaviour (functionality)
+object is an entity to store the values in the form of key value pairs
+
+javascript is object based language till 2015(ES6)
+after ES6 feature they added oops concept
+
+json - 
