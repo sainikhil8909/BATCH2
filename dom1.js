@@ -106,4 +106,4 @@ form.addEventListener("submit" , event=>{
     };
     console.log(userDetails);
     sessionStorage.setItem("userData" ,JSON.stringify(userDetails) )
-})
+}
